@@ -6,25 +6,19 @@ app.set('view engine', 'ejs')
 
 app.get('/', (req, res) => {
 
-    res.send('<html><body>Portal de notícias</body></HTML>')
+    res.render('home/index')
 
 })
 
-app.get('/tecnologia', (req, res) => {
+app.get('/formulario_inclusao_noticia', (req, res) => {
 
-    res.send('<html><body>Noticias de Tecnologia</body></HTML>')
-
-})
-
-app.get('/beleza', (req, res) => {
-
-    res.send('<html><body>Noticias de Beleza</body></HTML>')
+    res.render('admin/form_add_noticia')
 
 })
 
-app.get('/moda', (req, res) => {
+app.get('/noticias', (req, res) => {
 
-    res.send('<html><body>Noticias de Moda</body></HTML>')
+    res.render('noticias/noticias')
 
 })
 
