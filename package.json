@@ -1,0 +1,23 @@
+{
+  "name": "portal_noticias",
+  "version": "1.0.0",
+  "description": "Portal de noticias",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreStrahlend/node.portal-de-noticias.git"
+  },
+  "author": "Alexandre Strahlend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandreStrahlend/node.portal-de-noticias/issues"
+  },
+  "homepage": "https://github.com/AlexandreStrahlend/node.portal-de-noticias#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3"
+  }
+}
