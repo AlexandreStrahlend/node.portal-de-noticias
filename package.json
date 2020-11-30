@@ -18,6 +18,7 @@
   "homepage": "https://github.com/AlexandreStrahlend/node.portal-de-noticias#readme",
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "nodemon": "^2.0.6"
   }
 }
