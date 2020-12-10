@@ -4,6 +4,7 @@
   "description": "Portal de noticias",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,8 +18,11 @@
   },
   "homepage": "https://github.com/AlexandreStrahlend/node.portal-de-noticias#readme",
   "dependencies": {
+    "consign": "^0.1.6",
     "ejs": "^2.5.6",
     "express": "^4.15.3",
-    "nodemon": "^2.0.6"
+    "mysql": "^2.13.0",
+    "nodemon": "^2.0.6",
+    "yarn": "^1.22.10"
   }
 }
